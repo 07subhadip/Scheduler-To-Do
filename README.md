@@ -1,60 +1,36 @@
-# ZenFlow OS (Productivity Dashboard)
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
+## Getting Started
 
-**ZenFlow OS** is a premium, "Dark Mode" productivity environment designed to help you maintain focus and flow. Built with a sleek Glassmorphism aesthetic, it combines task management, focus timers, and ambient audio into a single cohesive dashboard.
+First, run the development server:
 
-## 🚀 Features
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-- **Zen Focus Timer**: A Pomodoro-style timer with Focus (25m), Short Break (5m), and Long Break (15m) modes. Features a smooth SVG circular progress bar and audio notifications.
-- **Smart Task Manager**:
-  - Add, Edit, and Complete tasks.
-  - Set scheduled times for tasks.
-  - **Browser Notifications** & Audio Alarms when a scheduled task is due.
-  - Data persistence via `localStorage`.
-- **Audio Studio**:
-  - **Rain Mode**: Light Drizzle, Heavy Storm, Roof Rain.
-  - **Lo-Fi Integration**: Built-in beats or paste _any_ YouTube link to play it in the background.
-  - **Noise Generator**: White, Pink, and Brown noise.
-  - **Visualizer**: An animated audio equalizer bar.
-- **Premium UX**:
-  - **Glassmorphism Design**: Deep slate backgrounds, frosted glass cards, and neon accents.
-  - **Fluid Animations**: Powered by Framer Motion for spring physics sidebars, staggered lists, and shimmering text.
-  - **Responsive Sidebar**: A high-fidelity hamburger menu with profile and navigation sections.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## 🛠️ Installation & Setup
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-1.  **Clone the repository**
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-    ```bash
-    git clone https://github.com/07subhadip/Scheduler-To-Do.git
-    cd Scheduler-To-Do
-    ```
+## Learn More
 
-2.  **Install Dependencies**
+To learn more about Next.js, take a look at the following resources:
 
-    ```bash
-    npm install
-    ```
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-3.  **Run Development Server**
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-    ```bash
-    npm run dev
-    ```
+## Deploy on Vercel
 
-4.  **Build for Production**
-    ```bash
-    npm run build
-    ```
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-## 🎨 Design Philosophy
-
-ZenFlow OS enforces a strict **"Zen Dark"** theme (`#0f172a`) to reduce eye strain and promote deep work. All interactions are designed to be "heavy" and tactile using spring animations.
-
----
-
-_Built with ♥ for Focus._
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
